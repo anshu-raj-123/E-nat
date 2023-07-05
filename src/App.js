@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './Footer';
+import FrontPage from './Frontpage';
+import Navbar from './Navbar';
+import NextViewport3 from './NextSection3';
+import NextViewport4 from './NextSection4';
+import NextSection from './Nextsection';
+import NextViewport from './ViewPort';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <a href="#" className="side-scroll-button">&#8593;</a>
+
+   <Navbar/>
+   <FrontPage/>
+   <NextSection/>
+   <NextViewport/>
+   <NextViewport3/>
+   <NextViewport4/>
+   <Footer/>
+   </>
   );
 }
 
